@@ -29,7 +29,7 @@ while x>=0:
 	else:
 		while True:
 			user_guess = input('give a letter guess: ')
-			#all string from SOWPADS are upper case
+			#all string from SOWPODS are upper case
 			user_guess = user_guess.upper()
 			#avoid picked letters affecting your 10 chances
 			if user_guess in guess_lst:
